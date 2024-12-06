@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Noto+Sans+Avestan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Noto+Sans+Avestan&family=Sigmar+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.londrina {
+  font-family: "Londrina Solid", sans-serif;
+}
+
+.sigmar-one{
+  font-family: "Sigmar One", sans-serif;
+}
 
 :root {
   --background: #ffffff;
@@ -9,8 +20,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #00C3FF;
+    --foreground: #fff;
   }
 }
 
@@ -18,4 +29,136 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.buy-cat{
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  line-height: 29.58px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#000000;
+}
+
+.Link-manu-bar{
+  font-family: "Londrina Solid";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.03px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  text-shadow: -1px 1px 0px #000000;
+}
+
+.catday-one{
+  font-family: "Sigmar One";
+  font-weight: 400;
+  line-height: 270px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-shadow: 0px 6px 0px #00000040;
+}
+
+.ptag-group{
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  -webkit-text-stroke: 1px #00000033;
+  /* stroke-opacity: 1px solid #00000033; */
+  text-shadow: 0px -1px 0px #0000003D;
+  width: 100%
+}
+
+.get-a-solana{
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  line-height: 40.22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  -webkit-text-stroke: 1.07px #000;
+  text-shadow: 0px 3.21px 0px #000000;
+}
+
+.sectiononegetime{
+  background: #00B4EC;
+  border-width: 2px, 0px, 0px, 2px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 10.71px 10.71px 0px 0px #000000;
+}
+
+.we-recommend-using{
+  font-family: "Londrina Solid";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.64px #00000033;
+  text-shadow: 0px -1.07px 0px #0000003D;
+}
+
+.total-support{
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  line-height: 40.22px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  -webkit-text-stroke: 1.07px #000000;
+  text-shadow: 0px 3.21px 0px #000000;
+}
+
+.numbercat{
+  font-family: "Londrina Solid";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75.71px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  -webkit-text-stroke: 1.07px #000000;
+  text-shadow: 0px 3.21px 0px #000000;
+}
+
+.cat-footer-p{
+  font-family: "Londrina Solid";
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+.socal{
+  background: #FFFFFF;
+  border: 1.55px solid #000000;
+  box-shadow: 2.52px 2.52px 0px 0px #000000;
+}
+
+.powerby{
+  font-family: "Londrina Solid";
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000;
 }
