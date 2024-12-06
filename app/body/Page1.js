@@ -16,7 +16,7 @@ const Page1 = () => {
                         Cat Day is a special occasion dedicated to honoring the playful, independent,<br className='hidden sm:block'/> and lovable nature of cats. 
                         </p>
                         <p>
-                        Whether you're a lifelong cat owner or just an admirer, it's a time to celebrate their <br className='hidden sm:block'/> unique personalities, pamper them with treats, and share your favorite cat moments <br className='hidden sm:block'/> with others.  
+                        Whether you&apos;re a lifelong cat owner or just an admirer, it&apos;s a time to celebrate their <br className='hidden sm:block'/> unique personalities, pamper them with treats, and share your favorite cat moments <br className='hidden sm:block'/> with others.  
                         </p>
                         <p>
                         From fostering awareness of feline care to embracing their quirks, Cat Day brings <br className='hidden sm:block'/> together cat lovers everywhere!
