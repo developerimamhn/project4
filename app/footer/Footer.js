@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex justify-between items-center mt-[50px] md:mt-[70px] xl:mt-[121px] pb-[30px] md:pb-[45px] xl:pb-[60px]'>
-                    <p className='powerby text-[12px]  md:text-[16px] xl:text-[20px]'>©Suiyan Cat Token CopyRight 2024</p>
+                    <p className='powerby text-[12px]  md:text-[16px] xl:text-[20px]'>©Suiyan Cat and Token CopyRight 2024</p>
                     <p className='powerby text-[12px]  md:text-[16px] xl:text-[20px]'>All Rights Reserved </p>
                 </div>
             </div>
