@@ -6,7 +6,7 @@ import AutoSlider from '../Header/AutoSlider';
 
 const Page1 = () => {
     return (
-        <div className='relative'>
+        <div className='relative' id='home'>
             <Image className='bottom-10 absolute left-0 w-full z-[-1]'  src={image5} alt='Loacing'/>
             <div className='container mx-auto'>
                 <div className=''>

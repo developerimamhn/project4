@@ -5,7 +5,7 @@ import image7 from '../image/image7.png';
 
 const Page2 = () => {
     return (
-        <div className='relative'>
+        <div className='relative' id='About'>
             <div className="container mx-auto py-[60px] sm:py-[80px] md:py-[110px] lg:py-[140] xl:pt-[170px] 2xl:pt-[200px]">
                 <h1 className='catday-one  text-[40px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] !leading-[40px] pb-[40px] md:mb-[70px] xl:mb-[114px]'>how to buy</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-14 md:gap-12 lg:gap-14 xl:gap-12 2xl:gap-12 sm:px-0 px-[24px]">

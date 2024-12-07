@@ -4,7 +4,7 @@ import image8 from '../image/image8.png';
 import imagetwo from '../image/image1.png';
 const Page3 = () => {
     return (
-        <div>
+        <div id='Tokenomics'>
             <div className='container mx-auto pb-[60px] sm:pb-[80px] md:pb-[110px] lg:pb-[150px] xl:pb-[170px] 2xl:pb-[200px]'>
                 <h1 className='catday-one  text-[50px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] !leading-[40px] pb-[40px] md:mb-[70px] xl:mb-[114px]'>how to buy</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-2  sm:px-0 px-[24px] gap-[20px] md:gap-[25px] lg:gap-[30px] xl:gap-[35px] 2xl:gap-[42px]'>

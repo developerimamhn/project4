@@ -7,7 +7,7 @@ import image12 from '../image/image12.png';
 
 const Footer = () => {
     return (
-        <div className='relative'>
+        <div className='relative' id='disclaimer'>
             <div className='container mx-auto'>
                 <div className='flex justify-center items-center px-[24px] sm:px-0 flex-col'>
                     <Image className='w-full sm:w-[150px] md:w-[170px] lg:w-[210px] xl:w-[250px] 2xl:w-[276.93px]' src={image9} alt='Loading...'/>
